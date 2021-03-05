@@ -1,0 +1,100 @@
+#div1 {
+    width: 50%;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: 25%;
+    border: 4px solid rgb(93, 88, 134);
+    box-shadow: rgb(93, 88, 134) 0px 4px 3px;
+    border-radius: 12px;
+}
+
+#sonuc {
+    width: 50%;
+    height: 100px;
+    position: relative;
+    top: 130px;
+    left: 25%;
+    color: rgb(111, 177, 127);
+    font-size: 64px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#player1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-bottom: 2px solid rgb(93, 88, 134);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-image: url(tas.jpg);
+}
+
+#player2 {
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-bottom: 2px solid rgb(93, 88, 134);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-image: url(makas.jpg);
+}
+
+#skor {
+    width: 275px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    font-size: 32px;
+    color: rgb(14, 82, 82);
+}
+
+#skor1 {
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 25px;
+    float: left;
+    border: 3px solid rgb(93, 88, 134);
+    border-radius: 12px;
+    box-shadow: rgb(93, 88, 134) 0px 3px 3px;
+    text-align: center;
+    font-size: 64px;
+}
+
+#skor2 {
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 25px;
+    float: right;
+    border: 3px solid rgb(93, 88, 134);
+    border-radius: 12px;
+    box-shadow: rgb(93, 88, 134) 0px 3px 3px;
+    text-align: center;
+    font-size: 64px;
+}
+
+.play {
+    color: rgb(204, 115, 32);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+    text-shadow: 1px 1px 1px rgb(204, 115, 32);
+}
+
+#btn {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 240px;
+    font-size: 20px;
+    border: 3px solid rgb(204, 115, 32);
+    border-radius: 12px;
+    color: rgb(14, 82, 82);
+}
